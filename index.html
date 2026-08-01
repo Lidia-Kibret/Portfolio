@@ -232,10 +232,6 @@
             <span class="stat__num" id="lc-total">151</span>
             <span class="stat__label">Total Problems Solved</span>
           </article>
-          <article class="card stat">
-            <span class="stat__num" id="lc-streak">—</span>
-            <span class="stat__label">Current Streak (days)</span>
-          </article>
           <article class="card stat stat--easy">
             <span class="stat__num" id="lc-easy">—</span>
             <span class="stat__label">Easy Problems</span>
@@ -506,8 +502,6 @@
           setNum("lc-easy",   d.easySolved);
           setNum("lc-medium", d.mediumSolved);
           setNum("lc-hard",   d.hardSolved);
-          var s = computeStreak(d.submissionCalendar);
-          if (s !== null) setNum("lc-streak", s);
         })
         .catch(function () {
           // Backup API

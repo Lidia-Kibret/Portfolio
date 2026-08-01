@@ -560,7 +560,7 @@ ul { list-style: none; }
   .about { grid-template-columns: 1.2fr 0.8fr; align-items: start; }
   .ds    { grid-template-columns: 1fr 1fr; }
   .gh    { grid-template-columns: 0.8fr 1.2fr; align-items: stretch; }
-  .stats { grid-template-columns: repeat(5, 1fr); }
+  .stats { grid-template-columns: repeat(4, 1fr); }
   .repos { grid-template-columns: repeat(3, 1fr); }
   .contacts { grid-template-columns: repeat(4, 1fr); }
 
