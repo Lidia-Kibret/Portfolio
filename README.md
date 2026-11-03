@@ -9,6 +9,7 @@ My personal portfolio website, showcasing my projects, skills, competitive progr
 - Dark / light theme toggle
 - Live LeetCode and GitHub stats pulled from public APIs
 - Sections: About, Skills, Projects, Competitive Programming, Data Science, Contact
+- Smooth scrolling navigation and sticky header
 
 ## 🛠️ Built with
 HTML5 · CSS3 · JavaScript · deployed on Vercel
